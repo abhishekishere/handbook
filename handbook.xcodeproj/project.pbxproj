@@ -97,6 +97,7 @@
 		469A788F17075FE10061595F /* CF */ = {
 			isa = PBXGroup;
 			children = (
+				46231D76170CA6D80040FFEC /* fv_106.c */,
 				469A789017075FE10061595F /* Supporting Files */,
 			);
 			path = CF;
@@ -109,7 +110,6 @@
 				469A789217075FE10061595F /* InfoPlist.strings */,
 				469A789517075FE10061595F /* CF-Prefix.pch */,
 				46231D75170C94300040FFEC /* Script.sh */,
-				46231D76170CA6D80040FFEC /* fv_106.c */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
