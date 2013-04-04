@@ -84,7 +84,7 @@ void table (double (*pf)(double i, int m, double n), double a, int m, double n)
     double i;       /* annual interest rate */
     double f;       /* future value */
     
-    printf("\nInterest  Rate    Future Amount\n\n");
+    printf("\nInterest Rate    Future Amount\n\n");
     for (count = 1; count <= 20; ++count)   {
         i = 0.01 * count;
         f = a * (*pf)(i, m, n);     /* ACCESS THE FUNCTION PASSED AS POINTER */
@@ -101,7 +101,7 @@ double md1(double i, int m, double n)
     double factor, ratio;
     
     factor = 1 + i/m;
-    ratio = 12 * (pow(factor, m*n)-1)/i;
+    ratio = m * (pow(factor, m*n)-1)/i;
     return ratio;
 }
 
