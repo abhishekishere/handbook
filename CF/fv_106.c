@@ -101,7 +101,7 @@ double md1(double i, int m, double n)
     double factor, ratio;
     
     factor = 1 + i/m;
-    ratio = m * (pow(factor, m*n)-1)/i;
+    ratio = 12* (pow(factor, m*n)-1)/i;
     return ratio;
 }
 
