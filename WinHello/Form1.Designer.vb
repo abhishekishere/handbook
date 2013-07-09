@@ -28,9 +28,11 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(83, 133)
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.Button1.Font = New System.Drawing.Font("MS Reference Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(73, 133)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(83, 40)
+        Me.Button1.Size = New System.Drawing.Size(125, 44)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Click Me!"
         Me.Button1.UseVisualStyleBackColor = True
@@ -49,6 +51,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(278, 245)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
+        Me.MaximumSize = New System.Drawing.Size(300, 300)
+        Me.MinimumSize = New System.Drawing.Size(300, 300)
         Me.Name = "Form1"
         Me.Text = "WinHello"
         Me.ResumeLayout(False)
